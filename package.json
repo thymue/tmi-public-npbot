@@ -16,7 +16,7 @@
     "twitch-chat-bot",
     "np"
   ],
-  "author": "thymuue",
+  "author": "thymue",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^15.12.2",
