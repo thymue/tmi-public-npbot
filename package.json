@@ -1,0 +1,28 @@
+{
+  "name": "tmi-public-npbot",
+  "version": "2.0.1",
+  "description": "grabs now playing map from gosumemory and displays it in chat upon request",
+  "main": "./src/index.ts",
+  "scripts": {
+    "run": "ts-node ./src/index.ts",
+    "build": "powershell.exe -File build.ps1"
+  },
+  "keywords": [
+    "tmi.js",
+    "twitch",
+    "osu",
+    "now-playing",
+    "chat-bot",
+    "twitch-chat-bot",
+    "np"
+  ],
+  "author": "thymuue",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.12.2",
+    "@types/tmi.js": "^1.7.1",
+    "@types/websocket": "^1.0.2",
+    "tmi.js": "^1.8.3",
+    "websocket": "^1.0.34"
+  }
+}
